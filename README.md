@@ -33,7 +33,7 @@ This project is a Rental Property Management System developed as part of Assignm
 
 ## Author
 
-**Your Full Name - Your Student ID**
+**Tran Thanh Lam - s4038329**
 
 ## Acknowledgements
 
