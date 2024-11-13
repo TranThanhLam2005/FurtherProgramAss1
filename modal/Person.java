@@ -8,13 +8,29 @@ import java.util.*;
 abstract class Person {
     private String Uid;
     private String fullName;
-    private String dateOfBirth;
+    private Date dateOfBirth;
     private String contactInfor;
 
-    public Person(String uid, String fullName, String dateOfBirth, String contactInfor) {
+    public Person(String uid, String fullName, Date dateOfBirth, String contactInfor) {
         this.Uid = uid;
         this.fullName = fullName;
         this.dateOfBirth = dateOfBirth;
         this.contactInfor = contactInfor;
+    }
+
+    public String getUid() {
+        return Uid;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public Date getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public String getContactInfor() {
+        return contactInfor;
     }
 }

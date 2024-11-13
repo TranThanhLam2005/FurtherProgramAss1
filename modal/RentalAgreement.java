@@ -9,7 +9,7 @@ import java.util.*;
 public class RentalAgreement {
     private String Aid;
     private Tenant mainTenant;
-    private ArrayList<Tenant> subTenants;
+    private ArrayList<Tenant> subTenants = new ArrayList<Tenant>();
     private Property propertyLeased;
     private String period; // (daily, weekly, fortnightly, monthly, etc.)
     private Date contractDate;
