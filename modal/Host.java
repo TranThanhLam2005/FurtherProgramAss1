@@ -8,16 +8,17 @@ import java.util.*;
 
 
 public class Host extends Person{
-    private ArrayList<Property> managePropertyList = new ArrayList<Property>();
-    private ArrayList<Owner> cooperateOwnerList = new ArrayList<Owner>();
-    private ArrayList<RentalAgreement> rentalAgreementList = new ArrayList<RentalAgreement>();
+    private ArrayList<String> managePropertyListID  = new ArrayList<String>();
+    private ArrayList<String> cooperateOwnerListID = new ArrayList<String>();
+    private ArrayList<String> rentalAgreementListID = new ArrayList<String>();
 
-    public Host(String uid, String fullName, Date dateOfBirth, String contactInfor, ArrayList<Property> managePropertyList, ArrayList<Owner> cooperateOwnerList, ArrayList<RentalAgreement> rentalAgreementList) {
-        super(uid, fullName, dateOfBirth, contactInfor);
-        this.managePropertyList = managePropertyList;
-        this.cooperateOwnerList = cooperateOwnerList;
-        this.rentalAgreementList = rentalAgreementList;
-    }
+//    public Host(String uid, String fullName, Date dateOfBirth, String contactInfor, ArrayList<Property> managePropertyList, ArrayList<Owner> cooperateOwnerList, ArrayList<RentalAgreement> rentalAgreementList) {
+//        super(uid, fullName, dateOfBirth, contactInfor);
+//        this.managePropertyList = managePropertyList;
+//        this.cooperateOwnerList = cooperateOwnerList;
+//        this.rentalAgreementList = rentalAgreementList;
+//    }
+
     public Host(String uid, String fullName, Date dateOfBirth, String contactInfor) {
         super(uid, fullName, dateOfBirth, contactInfor);
     }

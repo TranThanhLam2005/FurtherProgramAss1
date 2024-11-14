@@ -16,6 +16,7 @@ public class displayOwnerUtils {
         int i = 1;
         ArrayList<ResidentialProperty> loadResidentialProperties = FileManager.loadReProperties("residentialProperty.txt");
         ArrayList<CommercialProperty> loadCommercialProperties = FileManager.loadCoProperties("commercialProperty.txt");
+        System.out.println("List Of Property Addresses:");
         for(ResidentialProperty residentialProperty : loadResidentialProperties){
             if(residentialProperty.getOwnerID().equals(owner.getUid())){
                 System.out.println("Property Address: " + i++ + residentialProperty.getAddress());
@@ -37,6 +38,7 @@ public class displayOwnerUtils {
     public static void displayRentalAgreementsID(Owner owner) throws IOException {
         ArrayList<RentalAgreement> agreements = FileManager.loadRentalAgreement("rentalAgreement.txt");
         int i = 1;
+        System.out.println("List Of Rental AgreementsID:");
         for (RentalAgreement agreement : agreements) {
             if (agreement.getOwnerID().equals(owner.getUid())) {
                 System.out.println("Rental Agreement " + i++ + ": " + agreement.getAid());

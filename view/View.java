@@ -15,7 +15,7 @@ public class View {
         }
         // Prompt user to enter an index
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the index of the owner you want to know more about: ");
+        System.out.println("Enter the index of the tenant you want to know more about: ");
         int index = scanner.nextInt();
         scanner.nextLine(); // Consume the newline character left by next().
         if (index > 0 && index <= tenants.size()) {

@@ -250,7 +250,7 @@ public class FileManager {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] tokens = line.split(",\\s*");
-                if (tokens.length == 8) {
+                if (tokens.length == 5) {
                     String paymentID = tokens[0];
                     String tenantID = tokens[1];
                     double amount = Double.parseDouble(tokens[2]);

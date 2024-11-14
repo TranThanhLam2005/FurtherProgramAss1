@@ -9,12 +9,18 @@ public class displayTenantUtils {
         System.out.println("Personal Information:");
         System.out.println(tenant);
     }
-    public static void displayRentalAgreementsID(Tenant tenant) {
-//        System.out.println("Rental Agreements ID:");
-//        System.out.println(tenant.getRentalAgreements());
+    public static void displayRentalAgreementsID(Tenant tenant) throws IOException {
+        System.out.println("List Of Rental Agreements ID:");
+        ArrayList<RentalAgreement> rentalAgreements = FileManager.loadRentalAgreement("rentalAgreement.txt");
+        int i = 1;
+        for (RentalAgreement rentalAgreement : rentalAgreements) {
+            if (rentalAgreement.getMainTenantID().equals(tenant.getUid())) {
+                System.out.println("Rental Agreement " + i++ + ": " + rentalAgreement.getAid());
+            }
+        }
     }
     public static void displayPaymentTransactions(Tenant tenant) throws IOException {
-        System.out.println("Payment Transactions:");
+        System.out.println("List Of Payment Transactions:");
         ArrayList<Payment> payments = FileManager.loadPayments("payment.txt");
         int i = 1;
         for (Payment payment : payments) {

@@ -44,7 +44,7 @@ public class Payment {
     public String toString() {
         return "Payment ID: " + paymentId + "\n" +
                 "Amount: " + amount + "\n" +
-                "Date: " + date + "\n" +
+                "Date of transfer: " + date + "\n" +
                 "Payment Method: " + paymentMethod;
     }
 }
