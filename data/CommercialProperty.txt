@@ -1,0 +1,15 @@
+CP001, On001, 123 Acacia Street, 4500.00, Available, Retail, 2, 1500.0
+CP002, On002, 456 Banksia Avenue, 5500.00, Rented, Office, 1, 2000.0
+CP003, On003, 789 Wattle Lane, 3000.00, Available, Warehouse, 3, 2500.0
+CP004, On004, 101 Jacaranda Road, 6200.00, Available, Retail, 2, 1800.0
+CP005, On005, 202 Eucalyptus Boulevard, 4300.00, Under Maintenance, Office, 1, 1600.0
+CP006, On006, 303 Grevillea Street, 3500.00, Available, Warehouse, 2, 2200.0
+CP007, On007, 404 Waratah Way, 4800.00, Rented, Retail, 2, 1400.0
+CP008, On008, 505 Bottlebrush Drive, 5200.00, Available, Office, 1, 1900.0
+CP009, On009, 606 Bluegum Lane, 4000.00, Under Maintenance, Warehouse, 3, 2700.0
+CP010, On010, 707 Lillypilly Avenue, 4700.00, Available, Retail, 2, 1600.0
+CP011, On011, 808 Paperbark Road, 6500.00, Rented, Office, 1, 2100.0
+CP012, On012, 909 Kurrajong Street, 3900.00, Available, Warehouse, 2, 2300.0
+CP013, On013, 101  Hakea Drive, 5600.00, Under Maintenance, Retail, 2, 1700.0
+CP014, On014, 111  Sheoak Lane, 5300.00, Available, Office, 1, 1500.0
+CP015, On015, 121  Banksia Street, 4600.00, Rented, Warehouse, 3, 2600.0

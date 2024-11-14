@@ -1,0 +1,15 @@
+RP001, On001, 123 Elm Street Melbourne, 4500.00, Available, 3, true, true
+RP002, On002, 456 Oak Avenue Sydney, 5500.00, Rented, 4, true, false
+RP003, On003, 789 Pine Lane Brisbane, 3000.00, Available, 2, false, true
+RP004, On004, 101 Maple Road Perth, 6200.00, Available, 5, true, true
+RP005, On005, 202 Birch Boulevard Adelaide, 4300.00, Under Maintenance, 3, false, false
+RP006, On006, 303 Cedar Street Hobart, 3500.00, Available, 2, true, true
+RP007, On007, 404 Walnut Way Canberra, 4800.00, Rented, 4, true, true
+RP008, On008, 505 Chestnut Drive Darwin, 5200.00, Available, 3, false, false
+RP009, On009, 606 Fir Lane Gold Coast, 4000.00, Under Maintenance, 2, true, true
+RP010, On010, 707 Spruce Avenue Newcastle, 4700.00, Available, 3, true, false
+RP011, On011, 808 Redwood Road Sunshine Coast, 6500.00, Rented, 5, true, true
+RP012, On012, 909 Willow Street Geelong, 3900.00, Available, 2, false, true
+RP013, On013, 1010 Poplar Drive Cairns, 5600.00, Under Maintenance, 4, true, false
+RP014, On014, 1111 Cypress Lane Wollongong, 5300.00, Available, 3, true, true
+RP015, On015, 1212 Ash Street Townsville, 4600.00, Rented, 3, false, true

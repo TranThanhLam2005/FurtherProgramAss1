@@ -1,6 +1,8 @@
+import modal.*;
 import view.View;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -120,8 +122,8 @@ public class Main {
                 System.out.println("Invalid choice! Please try again.");
                 break;
         }
+        scanner.close();
     }
-
     public static void main(String[] args) throws IOException {
         printIntroduction();
         PauseAndClearScreen();

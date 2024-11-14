@@ -16,6 +16,7 @@ abstract class Person {
         this.fullName = fullName;
         this.dateOfBirth = dateOfBirth;
         this.contactInfor = contactInfor;
+
     }
 
     public String getUid() {

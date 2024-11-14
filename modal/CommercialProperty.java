@@ -7,11 +7,11 @@ import java.util.*;
  */
 public class CommercialProperty extends Property{
     private String businessType;
-    private double parkingSpaces;
+    private int parkingSpaces;
     private double squareFootage;
 
-    public CommercialProperty(String propertyId, String address, double pricing, String status, Owner owner, ArrayList<Host> hostList, String businessType, double parkingSpaces, double squareFootage) {
-        super(propertyId, address, pricing, status, owner, hostList);
+    public CommercialProperty(String propertyId, String address, double pricing, String status, String ownerID, String businessType, int parkingSpaces, double squareFootage) {
+        super(propertyId, address, pricing, status, ownerID);
         this.businessType = businessType;
         this.parkingSpaces = parkingSpaces;
         this.squareFootage = squareFootage;
